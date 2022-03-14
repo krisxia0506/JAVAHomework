@@ -30,14 +30,7 @@ public class Method {
             System.out.println("成绩："+grade);
             System.out.println(result);
         }
-        //void表示方法没有返回值
-        public static void shuchu (String name,int age,double grade,String result){
-            System.out.println("姓名："+name);
-            System.out.println("年龄："+age);
-            System.out.println("成绩："+grade);
-            System.out.println(result);
-        }
-//1111111111111111111111
+
     public static String judge (double grade) {
         String result="";
         if (grade<60){
