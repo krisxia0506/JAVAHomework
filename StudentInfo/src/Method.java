@@ -16,15 +16,7 @@ public class Method {
         System.out.println("输入学生成绩");
 
         double grade = sc.nextDouble();
-        if (grade<60){
-            result="No PASS";
-        } else if(grade>=60&&grade<75){
-            result="合格";
-        } else if(grade>=75&&grade<90){
-            result="良好";
-        } else if(grade>=90){
-            result="优秀";
-        }
+       result=judge(grade);
         shuchu(name,age,grade,result);
     }
     //void表示方法没有返回值
