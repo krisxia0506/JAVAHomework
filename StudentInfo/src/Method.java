@@ -30,7 +30,7 @@ public class Method {
             System.out.println("成绩："+grade);
             System.out.println(result);
         }
-
+//1111111111111111111111
     public static String judge (double grade) {
         String result="";
         if (grade<60){
