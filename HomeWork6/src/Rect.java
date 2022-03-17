@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Rect {
-    //类的属性
+    //类的属性1
     double side1;
     double side2;
     //方法
