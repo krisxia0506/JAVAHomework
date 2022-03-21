@@ -28,7 +28,7 @@ public class Method {
     }
     //1111111111111111111111
     public static String judge (double grade) {
-        String result="";
+        String result=new String("");
         if (grade<60){
             result="No PASS";
         } else if(grade>=60&&grade<75){
