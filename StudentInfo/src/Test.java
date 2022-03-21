@@ -8,6 +8,6 @@ public class Test {
         s1.display();
         s2.display();
         s3.display();
-        String name = s1.name;
+        s1.name
     }
 }
