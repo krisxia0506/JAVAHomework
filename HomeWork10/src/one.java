@@ -32,7 +32,7 @@ class Rect {
 
 }
 public class one {
-    public static void main(String args)
+    public static void main(String[] args)
     {
         Scanner sin =new Scanner(System.in);
         Rect r = new Rect();
