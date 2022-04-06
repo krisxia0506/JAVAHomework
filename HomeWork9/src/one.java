@@ -3,20 +3,13 @@
 定义测试类，在main方法中分别使用两种方法计算工人的年收入。*/
 import java.util.Scanner;
 class Worker {
-    String name = "Worker Zhang";
-    int age = 28;
-    double salary = 8888.0;
-    String level = "SeniorEngineer";
 
     public int way(int x,int y,int z) {
-
         return x+y*z;
-
     }
+
     public int way(int x) {
-
         return x*12;
-
     }
 }
 public class one {
