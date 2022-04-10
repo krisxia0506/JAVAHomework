@@ -15,6 +15,7 @@ class TableInfo{
     }
     //返回shape属性
     public String display(){
+
         return shape;
     }
     //输出
@@ -32,6 +33,7 @@ class Worker{
     }
     //返回name属性
     public String display(){
+
         return name;
     }
     //构造方法
