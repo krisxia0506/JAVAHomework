@@ -13,7 +13,6 @@ public class two {
         round.displayRound();
     }
 
-
 }
 class TableInfo{
     private int legs;
