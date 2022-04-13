@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 /*定义桌子类TableInfo，属性有腿数（int legs）和高度（double height），
 为桌子类添加相应的构造方法和显示桌子信息的display()方法。以TableInfo类为父类，
 继承得到方桌类（RectTable）和圆桌类（RoundTable），方桌类新增属性长（double length）和宽（double width），
@@ -11,7 +13,6 @@ public class two {
         RoundTable round = new RoundTable(3,0.5,0.4);
         round.display();
         round.displayRound();
-
     }
 
 }

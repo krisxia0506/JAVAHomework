@@ -37,7 +37,13 @@ class Worker extends Person{
     public Worker() {
         super();
     }
-    public Worker(String name, int age,int salary,String level) {
+
+    public Worker(int salary, String level) {
+        this.salary = salary;
+        this.level = level;
+    }
+
+    public Worker(String name, int age, int salary, String level) {
 
         super(name, age);
         this.salary=salary;
