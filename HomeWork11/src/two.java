@@ -40,6 +40,7 @@ class RectTable extends TableInfo{
 
     }
 
+
 }
 class RoundTable extends TableInfo{
     private double radius;
