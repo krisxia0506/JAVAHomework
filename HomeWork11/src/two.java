@@ -37,6 +37,8 @@ class RectTable extends TableInfo{
 
     public RectTable(int legs,double height,double length,double width){
         super(legs,height);
+        this.length=length;
+        this.width=width;
 
     }
 

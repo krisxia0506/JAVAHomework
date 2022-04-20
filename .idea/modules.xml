@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Average score/Average score.iml" filepath="$PROJECT_DIR$/Average score/Average score.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork10/HomeWork10.iml" filepath="$PROJECT_DIR$/HomeWork10/HomeWork10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork11/HomeWork11.iml" filepath="$PROJECT_DIR$/HomeWork11/HomeWork11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork2/HomeWork2.iml" filepath="$PROJECT_DIR$/HomeWork2/HomeWork2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork3/HomeWork3.iml" filepath="$PROJECT_DIR$/HomeWork3/HomeWork3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork4/HomeWork4.iml" filepath="$PROJECT_DIR$/HomeWork4/HomeWork4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork5/HomeWork5.iml" filepath="$PROJECT_DIR$/HomeWork5/HomeWork5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork6/HomeWork6.iml" filepath="$PROJECT_DIR$/HomeWork6/HomeWork6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork7/HomeWork7.iml" filepath="$PROJECT_DIR$/HomeWork7/HomeWork7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork8/HomeWork8.iml" filepath="$PROJECT_DIR$/HomeWork8/HomeWork8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork9/HomeWork9.iml" filepath="$PROJECT_DIR$/HomeWork9/HomeWork9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quiz/Quiz.iml" filepath="$PROJECT_DIR$/Quiz/Quiz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudentInfo/StudentInfo.iml" filepath="$PROJECT_DIR$/StudentInfo/StudentInfo.iml" />
     </modules>
   </component>
 </project>

@@ -3,6 +3,7 @@ public class two {
         Feeder fd = new Feeder("Tom");
         Dog dog = new Dog();
         Bone bone = new Bone(500);
+
         fd.feed(dog, bone);
         System.out.println("-----------------");
         fd.feed(new Cat(), new Fish(100));
@@ -17,6 +18,11 @@ class Feeder {
     public void feed(Animal a, Food f) {
         a.eat(f);
         System.out.println("Feeder "+name+" feed "+a+ " with "+f.getWeight()+"g "+f+".");
+    }
+}
+class Animal{
+    public void eat(Food food){
+        System.out.println("It's time to eat "+food+".");
     }
 }
 class Food{
@@ -34,6 +40,31 @@ class Food{
         this.weight = weight;
     }
 }
+class Dog extends Animal{
+
+    @Override
+    public String toString() {
+        return super.getClass().getName();
+    }//获取类名
+    @Override
+    public void eat(Food food){
+        System.out.println("It's time to eat "+food.toString()+".");
+        System.out.println("Dog like "+ food);
+    }
+}
+class Cat extends Animal{
+    @Override
+    public String toString() {
+        return super.getClass().getName();
+    }
+    @Override
+    public void eat(Food food){
+        System.out.println("It's time to eat "+food+".");
+        System.out.println("Cat like "+food);
+    }
+}
+
+
 class Bone extends Food{
     public Bone(int i) {
         super(i);
@@ -54,35 +85,3 @@ class Fish extends Food{
         return super.getClass().getName();
     }
 }
-
-class Animal{
-    private Food food;
-    public void eat(Food food){
-        System.out.println("It's time to eat "+food+".");
-    }
-}
-class Dog extends Animal{
-    public void feed(Dog a, Food f) {
-        a.eat(f);
-
-    }
-    @Override
-    public String toString() {
-        return super.getClass().getName();
-    }
-    public void eat(Food food){
-        System.out.println("It's time to eat "+food+".");
-        System.out.println("Dog like "+food);
-    }
-}
-class Cat extends Animal{
-    @Override
-    public String toString() {
-        return super.getClass().getName();
-    }
-    public void eat(Food food){
-        System.out.println("It's time to eat "+food+".");
-        System.out.println("Cat like "+food);
-    }
-}
-
