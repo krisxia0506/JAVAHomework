@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a2924574-c661-4a97-8438-aae57554932b" name="变更" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork11/src/two.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork11/src/two.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork11/src/one.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork11/src/one.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.two (1)">
+  <component name="RunManager" selected="应用程序.one">
+    <configuration name="one" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one" />
+      <module name="HomeWork11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="two (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="two" />
       <module name="HomeWork11" />
@@ -53,6 +60,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.one" />
         <item itemvalue="应用程序.two (1)" />
         <item itemvalue="应用程序.two" />
       </list>
@@ -69,6 +77,12 @@
       <workItem from="1650462712305" duration="147000" />
       <workItem from="1650593886407" duration="1019000" />
       <workItem from="1650595394282" duration="24000" />
+      <workItem from="1650595613457" duration="2597000" />
+      <workItem from="1650598700096" duration="276000" />
+      <workItem from="1650790607265" duration="69000" />
+      <workItem from="1650791289278" duration="124000" />
+      <workItem from="1650799446290" duration="555000" />
+      <workItem from="1650934343651" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1650462812859</created>
@@ -77,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650462812859</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1650595733177</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650595733177</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

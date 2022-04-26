@@ -35,16 +35,17 @@ class Worker extends Person{
     }
     //继承Person无参的构造方法
     public Worker() {
-        super();
+        //super(); 隐含的，因为要让子类对象也有父类的属性
     }
 
     public Worker(int salary, String level) {
+        //super(); 隐含的
         this.salary = salary;
         this.level = level;
     }
 
     public Worker(String name, int age, int salary, String level) {
-
+        //这个就不隐含super()了因为已经用了 super(name, age)
         super(name, age);
         this.salary=salary;
         this.level=level;
