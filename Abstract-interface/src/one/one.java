@@ -18,7 +18,7 @@ public class one {
     }
 }
 abstract class Person{
-    String name;
+    private String name;
 
     public Person(String name) {
         this.name = name;
@@ -26,6 +26,9 @@ abstract class Person{
 
     public abstract void speak();
 
+    public String getName() {
+        return name;
+    }
 }
 
 class Teacher extends Person{
@@ -36,7 +39,7 @@ class Teacher extends Person{
     }
 
     public void speak(){
-        System.out.println(name+" said class is over!");
+        System.out.println(getName()+" said class is over!");
     }
 
 }
@@ -46,6 +49,6 @@ class Worker extends Person{
     }
 
     public void speak(){
-        System.out.println(name+" said to have a rest!");
+        System.out.println(getName()+" said to have a rest!");
     }
 }
