@@ -56,10 +56,10 @@ public class one {
             } else {
                 Date b = a24.parse(line);
 
-
                 System.out.println(">>>Time in 12-hour notation is: " + a12.format(b));
             }
         } catch (ParseException | NumberFormatException e) {
+
             throw new TimeFormatException();
         }
 

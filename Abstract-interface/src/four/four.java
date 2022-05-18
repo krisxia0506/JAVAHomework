@@ -1,5 +1,7 @@
 package four;
 import java.util.Arrays;
+import java.util.Collections;
+
 /*要求编程实现Student类，使给定的Test类能正常运行，并实现按长度顺序输出姓名。*/
 public class four {
     public static void main(String[] args)
@@ -11,6 +13,7 @@ public class four {
         s[3] = new Student("Linda");
 
         Arrays.sort(s);
+
 
         System.out.println("according to length order:");
         for (Student stu:s)
@@ -49,6 +52,3 @@ class Student implements Comparable<Student>{
     }
 
 }
-
-
-

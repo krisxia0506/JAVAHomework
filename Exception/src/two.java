@@ -7,6 +7,7 @@
 import java.util.Scanner;
 
 public class two {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
@@ -15,9 +16,7 @@ public class two {
             if (absolute(i) == 1 && absolute(reverse(i)) == 1) {
                 System.out.println(i);
             }
-
         }
-
     }
 
     public static int absolute(int x) {//判断素数
@@ -38,6 +37,7 @@ public class two {
             int last = x % 10;
             ret = ret * 10 + last;
             x /= 10;
+
         }
         return ret;
     }

@@ -1,4 +1,3 @@
-
 /*定义接口Movable，接口中包含抽象方法move()。定义接口Soundable，接口中包含方法sound()。
 定义Person类的子类Teacher类和Worker类实现Movable接口和Soundable接口。在测试类Main中，
 创建Teacher类和Worker类的实例，输出相应的信息。*/
@@ -22,7 +21,7 @@ public class two {
 }
 
 interface Movable{
-    void move();
+     void move();
 
 }
 
