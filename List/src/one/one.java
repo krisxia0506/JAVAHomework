@@ -27,25 +27,14 @@ import java.util.ArrayList;
 
 public class one {
     public static void main(String[] args) {
-
         StudentClass sClass = new StudentClass();
-
         sClass.createClass();
-
         sClass.add(new Student("Steven", 18, 88));
-
-
         System.out.println("Original Order:");
-
         System.out.println(sClass.output());
-
-
         sClass.sort();
-
         System.out.println("Sorted Order:");
-
         System.out.println(sClass.output());
-
     }
 }
 
@@ -53,7 +42,6 @@ class Student {
     private final String name;
     private final double grade;
     private final int age;
-
     public Student(String name, int age, double grade) {
         this.name = name;
         this.grade = grade;
@@ -96,13 +84,9 @@ class StudentClass {
                     temp = stuList.get(j - 1);
                     stuList.set(j - 1, stuList.get(j));
                     stuList.set(j, temp);
-
                 }
             }
-
-
         }
-
     }
 
     public String output() {
@@ -111,7 +95,7 @@ class StudentClass {
             a.append("Name: " + stuList.get(i).getName() + "\tGrade: " + stuList.get(i).getGrade() + "\r\n");
         }
 
-        return a.toString() + "total: " + size + " students\r\n";
+        return a+ "total: " + size + " students\r\n";
     }
 
     public void add(Student a) {
