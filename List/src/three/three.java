@@ -23,11 +23,7 @@ String names[] = {"Tom","Jerry","Snoopy","Mary","Rose"};
        提示：排序功能建议使用Collections类的sort()方法自动排序，基于Comparable接口或Comparator接口均可。*/
 package three;
 
-import java.text.Collator;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Locale;
+import java.util.*;
 
 public class three {
     public static void main(String[] args) {
@@ -56,6 +52,7 @@ class Student {
     private final String name;
     private final double grade;
     private final int age;
+
 
     public Student(String name, int age, double grade) {
         this.name = name;
@@ -90,7 +87,6 @@ class StudentClass {
         size = names.length;
         for (int i = 0; i < size; i++) {
             stuList.add(new Student(names[i], ages[i], grades[i]));
-
         }
     }
 
@@ -104,20 +100,16 @@ class StudentClass {
     public String output() {
         StringBuilder a = new StringBuilder();
         for (int i = 0; i < size; i++) {
-
             a.append("Age: " + stuList.get(i).getAge() + "\tName: " + stuList.get(i).getName() + "\r\n");
         }
 
         return a + "total: " + size + " students\r\n";
     }
-
-
 }
 
 
 class StudentComparator implements Comparator<Student> {
-    Collator comparator = Collator.getInstance(Locale.CHINA);
-
+//    Collator comparator = Collator.getInstance(Locale.CHINA);
     @Override
     public int compare(Student o1, Student o2) {
         if (o1.getAge() != o2.getAge()) {
@@ -127,7 +119,8 @@ class StudentComparator implements Comparator<Student> {
                 return 1;
             return 0;
         } else {
-            return comparator.compare(o1.getName(), o2.getName());
+            return o1.getName().compareTo(o2.getName());
+//            return comparator.compare(o1.getName(), o2.getName());
 
         }
     }

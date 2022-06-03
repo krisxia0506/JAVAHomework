@@ -13,11 +13,12 @@ public class one {
         char[] c = new char[str.length()];
         b.read(c);//把文件读入数组c
         for (char x : c){
-            System.out.print((char) x);
+            System.out.print(x);
 
         }
         b.close();
         System.out.println("\n读出结束");
+
 
 
     }

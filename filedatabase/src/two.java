@@ -26,6 +26,9 @@ public class two {
         }
         //输出
         ResultSet rs = stmt.executeQuery(xs);
+
+
+
         while(rs.next()){
             // 通过字段检索
             int id  = rs.getInt("id");
